@@ -1,578 +1,828 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
-img {
-    max-width: 100%;
-}
-.bgimage {
-    background-image: url("../image/124493.webp");
-    background-size: contain;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 30px 0;
-}
-
-.btspace {
-    padding-bottom: 60px;
-}
-
-.flex1, .flex2, .flex3 {
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.flex1 .logo {
-    width: 20%;
-    color: white;
-    font-size: 1.5rem;
-
-}
-
-.flex1 .menu{
-    width:80%;
-    color: white;
-    font-size: 1.2rem;
-    margin-top: 15px;
-} 
-
-.menu div {
-    padding: 0 25px;
-}
-.menu div:last-child {
-    padding-right: 0px;
-}
-.flex1 {
-    padding: 20px 0;
-}
-a {
-    text-decoration: none;
-    color: white;
-}
-a:active {
-    color: rgb(22, 85, 152);
-}
-.flex2 {
-    justify-content: flex-end;
-    margin-right: 0;
-}
-
-.tel {
-    padding: 10px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    border: 1px dashed white;
-
-
-}
-
-.flex3 {
-    padding-top: 100px;
-}
-
-.flex3 .main{
-    width: 70%;
-    color: white;
-    padding-right: 10px;
-}
-
-.flex3 .form {
-    width: 30%;
-}
-
-.large, .law {
-    font-size: 2rem;
-    font-weight: 700;
-    line-height: 1.5;
-}
-
-.law {
-    font-size: 3rem;
-    padding: 5px 0;
-}
-
-.special {
-    border: 2px solid white;
-    padding: 10px 15px;
-}
-
-.description {
-    font-size: 1.1rem;
-}
-
-.form {
-   background-color: white;
-   border-radius: 5px;
-   font-size:1.5rem ;
-   font-weight: 600;
-   text-align: center;
-   margin-top: -55px;
-   border-bottom: 6px solid rgb(42, 118, 199);
-   
-   
-}
-
-.form p {
-    padding: 20px 0 ;
-}
-
-button {
-    background-color: rgb(42, 118, 199);
-    color: white;
-    padding: 5px 10px;
-    font-size: 1.5rem;
-    margin: 10px 0;
-    font-weight: bold;
-    border: none;
-}
-
-.btstart {
-    margin-top: 30px;
-    padding:10px 30px;
-}
-
-.btsubmit {
-    margin: 20px auto;
-    padding:10px 30px;
-    width: 80%;
-}
-
-input , textarea{
-    display: block;
-    width: 90%;
-    height: 50px;
-    margin: 5px auto;
-    padding: 10px 5px;
-    border: 1px solid rgb(186, 184, 184);
-    border-radius: 5px;
-
-}
-
-textarea {
-    height: 100px;
-}
-
-[placeholder] {
-    font-size: 1.2rem;
-    color: rgb(186, 184, 184);
-
-}
-
-/*------------------------section2--------------------*/
-.logo2 {
-    background-color: rgba(248, 241, 241, 0.926);
-}
-.flex4, .flex5,.flex6,.flex7,.flex8, .flex9, .flex10, .flex11, .flex12 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 10px 0px;
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+    }
     
-}
-
-.flex4 img {
-    width: 20%;
-    padding: 0 20px;
-    padding-top: 10px;
-}
-
-.bold {
-    font-weight: 400;
-    font-size: 2.2rem;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.line {
-    border-bottom: 5px solid rgb(42, 118, 199);
-    width: 10%;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.lawpara {
-    color: rgb(143, 138, 138) ;
-    padding: 20px;
-    margin: 0 auto;
-    width: 80%;
-    text-align: center;
-}
-
-.flex5 div {
-    width: 33.3333333%;
-    text-align: center;
-    margin: 10px auto;
-    padding: 10px 5px;
-
-}
-
-.flex5 div img, .flex9 div img {
-    width: 350px;
-    border: 2px dashed rgb(42, 118, 199);
-    padding: 3px;
-}
-
-.flex5 h3 {
-    font-weight: 400;
-    font-size: 1.5rem;
-    padding: 5px;
-}
-
-.flex5 p {
-    color: rgb(143, 138, 138);
-    padding: 5px 10px 0px 0px;
-}
-
-/*sec3*/
-
-.flex6 .imgdiv {
-    width: 40%;
-}
-
-.flex6 div img, .rtimg  {
+    img {
+        max-width: 100%;
+    }
     
-    margin: 10px 0px;
-    padding: 5px;
-    border: 2px dashed rgb(42, 118, 199);
-}
-.flex6 .contentdiv {
-    width: 60%;
-    padding: 0px 10px;
-    font-size: 1rem;
-    color: rgb(143, 138, 138);
-    line-height: 1.6;
-}
-.para1 {
-    padding-left: 9px;
-}
-.icon, .icon1 {
-    font-size: 40px;
-    color: rgb(42, 118, 199);
-    float: left;
-    clear: left;
-    padding: 5px 20px;
-    text-align: left;
-}
-.icon1 {
-    padding-right: 35px;
-}
-.contentdiv .title {
-    font-size: 1.2rem;
-    color: black;
-    font-weight: bold;
-    margin: -10px 5px;
-}
-.contentdiv  p {
-    padding: 5px 0px;
-    margin-left: 15px;
-}
-
-/* Section4*/
-
-.flex7 .ltcontent {
-    width: 60%;
-}
-.flex7 .rtimg {
-    width: 40%;
-}
-
-.flex7 h3 {
-    font-size: 1.2rem;
-    padding: 10px 0px;
-}
-
-.flex7 .h3content {
-    color: rgb(143, 138, 138);
-    padding: 5px 0px;
-    padding-right: 5px;
-}
-
-.flex8 div {
-    width: 33.333333333%;
-    text-align: center;
-    margin-left:-120px ;
-}
-.flex8 p {
-    padding: 8px 0px;
-
-}
-
-.icon2 {
-    font-size : 2rem;
-    padding: 20px 20px;
-    color: white;
-    background-image:linear-gradient(rgb(169, 71, 218), rgb(81, 45, 212));
-    border: 4px solid rgb(115, 37, 211);border-radius: 50%;
-}
-
-/*Section 5*/
-
-.bgimg2 {
-    background-image: url("../image/istockphoto-1138676310-612x612.jpg");
-    background-size: cover;
-    height: 100vh;
-    background-repeat: no-repeat;
-}
-
-.iframe {
-    margin: 20px 180px;
-}
-
-/*section 6*/
-
-.flex9 div {
-    width: 20%;
-    margin: 20px auto;
-    text-align: center;
-}
-
-.flex9 div img {
-    width:200px;
-}
-
-.name {
-    font-size: 2rem;
-    color: rgb(42, 118, 199);
-    font-weight: 400;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.post {
-    font-size: 1.2rem;
-    text-align: center;
-}
-
-.icon3 {
-    font-size: 1.5rem;
-    text-align: center;
-    margin: 8px auto;
-}
-
-.icon3 i {
-    background-color: rgb(42, 118, 199);
-    color: white;
-    padding: 5px;
-
-}
-.icon3 i:first-child {
-    background-color: rgb(22, 85, 152);
-}
-.icon3 i:last-child {
-    background-color: rgb(54, 110, 170);
-}
-
-/* section7 */
-
-.lnrbg {
-    background-image:linear-gradient(to right,rgb(169, 71, 218), rgb(81, 45, 212));
-
-}
-
-.flex10 div {
-    width: 25%;
-    text-align: center;
-    color: white;
-    font-size: 4rem;
-    font-weight: 500;
-    padding: 30px 0px;
-}
-
-.icn {
-    font-size: 4rem;
-    padding: 10px 0px;
-    font-weight: 700;
-}
-
-.flex10 div p:last-child {
-    font-size: 1rem;
-    margin-top: -15px;
-}
-
-/* section 8*/
-.client {
-    margin: 30px auto 0px;
-    text-align: center;
-}
-
-.client img {
-    width: 200px;
-    border: 2px dashed rgb(42, 118, 199);
-    padding: 5px;
-
-}
-
-.client h3 {
-    color: rgb(42, 118, 199);
-    font-size: 2rem;
-    font-weight: 400;
-}
-
-.client p {
-    color: rgb(143, 138, 138);
-    width: 60%;
-    margin: 0 auto;
-}
-
-.lawpara.clientpara {
-    margin-bottom: -50px;
-}
-.client span  {
-    font-size: 3rem;
-    color: rgb(143, 138, 138);
-    width: 20%;
-    padding: 5px;
-
-}
-
-.client :nth-child(5) {
-    color: rgb(62, 60, 60);
-}
-
-/* section 9 */
-
-.flex11 {
-    text-align: center;
-}
-
-.flex11 > div {
-    width: 28%;
-    background-color: white;
-    padding: 5px;
-}
-
-.flex11 div:first-child h3, .flex11 div:last-child h3{ 
-    font-size: 1.5rem;
-    padding: 10px;
-}
-
-.flex11 div:first-child i, .flex11 div:last-child i{ 
-    font-size: 3rem;
-    color: rgb(143, 138, 138);
-    margin: 10px auto;
-
-}
-
-.flex11 div:first-child p, .flex11 div:last-child p{ 
-    font-size: 1rem;
-}
-
-.flex11 div:nth-child(2) {
-    background-image: linear-gradient(to right,rgb(169, 71, 218), rgb(81, 45, 212));
-    width: 33%;
-    color: white;
-    border: 4px solid white;
-    box-shadow: 10px 10px 8px rgb(143, 138, 138);
-}
-
-.flex11 div:nth-child(2) h3 {
-    font-size: 2rem;
-    padding: 10px;
-}
-
-.flex11 div:nth-child(2) i{
-    font-size: 4rem;
-    font-weight: bold;
-    margin: 10px auto;
-}
-
-.doller1 {
-    font-size: 3rem;
-    font-weight: bold;
-    color: white;
-}
-
-
-.doller {
-    font-size: 3rem;
-    font-weight: bold;
-    color: rgb(42, 118, 199);
-}
-
-.doller p, .doller1 p {
-    color: rgb(143, 138, 138);
-    font-size: 1rem;
-    font-weight: 400;
-    padding-bottom: 10px;
-}
-
-.doller1 p {
-    color:white;
-}
-
-.contentcard p, .contentcard1 p {
-    color: rgb(143, 138, 138);
-    border-top: 1px solid rgb(233, 227, 227);
-    padding: 10px 5px;
-}
-
-.contentcard1 p {
-    border-top: 1px solid rgb(169, 71, 218);
-}
-
-.flex11 button {
-    background-color: black;
-    color: white;
-    width: 80%;
-    font-size: 1rem;
-    padding: 10px 20px;
-}
-
-#corp {
-    background-color: white;
-}
-
-#corp a {
-    color: rgb(42, 118, 199);
-}
-
-/*section 10*/
-.flex12 {
-    margin: 20px auto;
-    text-align: center;
-}
-.flex12  div {
-    width: 30%;
-    padding: 20px 8px;
-    border: 1px solid rgb(235, 228, 228);
-    box-shadow: 5px 5px 8px rgb(143, 138, 138);
-    color: black;
-    font-size: 1.5rem;
-
-}
-
-.flex12 div i {
-    font-size: 2rem;
-    color: rgb(42, 118, 199);
-    padding: 0 5px;
-}
-
-.flex12 div p {
-    color: rgb(143, 138, 138);
-    font-size: 1rem;
-}
-
-/*section11*/
-
-.map iframe {
-    width: 100%;
-}
-
-.bgblack {
-    background-color: black;
-    width: 100%;
-    color: white;
-    text-align: center;
-    padding: 30px 0px;
-}
-
-.bgblack div i {
-    font-size: 1.2rem;
-    padding: 20px 5px;
-}
+    .bgimage {
+        background-image: url("../image/124493.webp");
+        background-size: contain;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 30px 0;
+    }
+    
+    .btspace {
+        padding-bottom: 60px;
+    }
+    
+    .flex1,
+    .flex2,
+    .flex3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .flex1 .logo {
+        width: 20%;
+        color: white;
+        font-size: 1.5rem;
+    }
+    
+    .flex1 .menu {
+        width: 80%;
+        color: white;
+        font-size: 1.2rem;
+        margin-top: 15px;
+    }
+    
+    .menu div {
+        padding: 0 25px;
+    }
+    
+    .menu div:last-child {
+        padding-right: 0px;
+    }
+    
+    .flex1 {
+        padding: 20px 0;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    a:active {
+        color: rgb(22, 85, 152);
+    }
+    
+    .flex2 {
+        justify-content: flex-end;
+        margin-right: 0;
+    }
+    
+    .tel {
+        padding: 10px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        border: 1px dashed white;
+    }
+    
+    .flex3 {
+        padding-top: 100px;
+    }
+    
+    .flex3 .main {
+        width: 70%;
+        color: white;
+        padding-right: 10px;
+    }
+    
+    .flex3 .form {
+        width: 30%;
+    }
+    
+    .large,
+    .law {
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+    
+    .law {
+        font-size: 3rem;
+        padding: 5px 0;
+    }
+    
+    .special {
+        border: 2px solid white;
+        padding: 10px 15px;
+    }
+    
+    .description {
+        font-size: 1.1rem;
+    }
+    
+    .form {
+        background-color: white;
+        border-radius: 5px;
+        font-size: 1.5rem;
+        font-weight: 600;
+        text-align: center;
+        margin-top: -55px;
+        border-bottom: 6px solid rgb(42, 118, 199);
+    }
+    
+    .form p {
+        padding: 20px 0;
+    }
+    
+    button {
+        background-color: rgb(42, 118, 199);
+        color: white;
+        padding: 5px 10px;
+        font-size: 1.5rem;
+        margin: 10px 0;
+        font-weight: bold;
+        border: none;
+    }
+    
+    .btstart {
+        margin-top: 30px;
+        padding: 10px 30px;
+    }
+    
+    .btsubmit {
+        margin: 20px auto;
+        padding: 10px 30px;
+        width: 80%;
+    }
+    
+    input,
+    textarea {
+        display: block;
+        width: 90%;
+        height: 50px;
+        margin: 5px auto;
+        padding: 10px 5px;
+        border: 1px solid rgb(186, 184, 184);
+        border-radius: 5px;
+    }
+    
+    textarea {
+        height: 100px;
+    }
+    
+    [placeholder] {
+        font-size: 1.2rem;
+        color: rgb(186, 184, 184);
+    }
+    /*------------------------section2--------------------*/
+    
+    .logo2 {
+        background-color: rgba(248, 241, 241, 0.926);
+    }
+    
+    .flex4,
+    .flex5,
+    .flex6,
+    .flex7,
+    .flex8,
+    .flex9,
+    .flex10,
+    .flex11,
+    .flex12 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 10px 0px;
+    }
+    
+    .flex4 img {
+        width: 20%;
+        padding: 0 20px;
+        padding-top: 10px;
+    }
+    
+    .bold {
+        font-weight: 400;
+        font-size: 2.2rem;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    .line {
+        border-bottom: 5px solid rgb(42, 118, 199);
+        width: 10%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .lawpara {
+        color: rgb(143, 138, 138);
+        padding: 20px;
+        margin: 0 auto;
+        width: 80%;
+        text-align: center;
+    }
+    
+    .flex5 div {
+        width: 33.3333333%;
+        text-align: center;
+        margin: 10px auto;
+        padding: 10px 5px;
+    }
+    
+    .flex5 div img,
+    .flex9 div img {
+        width: 350px;
+        border: 2px dashed rgb(42, 118, 199);
+        padding: 3px;
+    }
+    
+    .flex5 h3 {
+        font-weight: 400;
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+    
+    .flex5 p {
+        color: rgb(143, 138, 138);
+        padding: 5px 10px 0px 0px;
+    }
+    /*sec3*/
+    
+    .flex6 .imgdiv {
+        width: 40%;
+    }
+    
+    .flex6 div img,
+    .rtimg {
+        margin: 10px 0px;
+        padding: 5px;
+        border: 2px dashed rgb(42, 118, 199);
+    }
+    
+    .flex6 .contentdiv {
+        width: 60%;
+        padding: 0px 10px;
+        font-size: 1rem;
+        color: rgb(143, 138, 138);
+        line-height: 1.6;
+    }
+    
+    .para1 {
+        padding-left: 9px;
+    }
+    
+    .icon,
+    .icon1 {
+        font-size: 40px;
+        color: rgb(42, 118, 199);
+        float: left;
+        clear: left;
+        padding: 5px 20px;
+        text-align: left;
+    }
+    
+    .icon1 {
+        padding-right: 35px;
+    }
+    
+    .contentdiv .title {
+        font-size: 1.2rem;
+        color: black;
+        font-weight: bold;
+        margin: -10px 5px;
+    }
+    
+    .contentdiv p {
+        padding: 5px 0px;
+        margin-left: 15px;
+    }
+    /* Section4*/
+    
+    .flex7 .ltcontent {
+        width: 60%;
+    }
+    
+    .flex7 .rtimg {
+        width: 40%;
+    }
+    
+    .flex7 h3 {
+        font-size: 1.2rem;
+        padding: 10px 0px;
+    }
+    
+    .flex7 .h3content {
+        color: rgb(143, 138, 138);
+        padding: 5px 0px;
+        padding-right: 5px;
+    }
+    
+    .flex8 div {
+        width: 33.333333333%;
+        text-align: center;
+        margin-left: -120px;
+    }
+    
+    .flex8 p {
+        padding: 8px 0px;
+    }
+    
+    .icon2 {
+        font-size: 2rem;
+        padding: 20px 20px;
+        color: white;
+        background-image: linear-gradient(rgb(169, 71, 218), rgb(81, 45, 212));
+        border: 4px solid rgb(115, 37, 211);
+        border-radius: 50%;
+    }
+    /*Section 5*/
+    
+    .bgimg2 {
+        background-image: url("../image/istockphoto-1138676310-612x612.jpg");
+        background-size: cover;
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
+    
+    .iframe {
+        margin: 20px 180px;
+        width: 853px;
+        height: 480px;
+        /* width="853" height="480" */
+    }
+    /*section 6*/
+    
+    .flex9 div {
+        width: 20%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .flex9 div img {
+        width: 200px;
+    }
+    
+    .name {
+        font-size: 2rem;
+        color: rgb(42, 118, 199);
+        font-weight: 400;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .post {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    
+    .icon3 {
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 8px auto;
+    }
+    
+    .icon3 i {
+        background-color: rgb(42, 118, 199);
+        color: white;
+        padding: 5px;
+    }
+    
+    .icon3 i:first-child {
+        background-color: rgb(22, 85, 152);
+    }
+    
+    .icon3 i:last-child {
+        background-color: rgb(54, 110, 170);
+    }
+    /* section7 */
+    
+    .lnrbg {
+        background-image: linear-gradient(to right, rgb(169, 71, 218), rgb(81, 45, 212));
+    }
+    
+    .flex10 div {
+        width: 25%;
+        text-align: center;
+        color: white;
+        font-size: 4rem;
+        font-weight: 500;
+        padding: 30px 0px;
+    }
+    
+    .icn {
+        font-size: 4rem;
+        padding: 10px 0px;
+        font-weight: 700;
+    }
+    
+    .flex10 div p:last-child {
+        font-size: 1rem;
+        margin-top: -15px;
+    }
+    /* section 8*/
+    
+    .client {
+        margin: 30px auto 0px;
+        text-align: center;
+    }
+    
+    .client img {
+        width: 200px;
+        border: 2px dashed rgb(42, 118, 199);
+        padding: 5px;
+    }
+    
+    .client h3 {
+        color: rgb(42, 118, 199);
+        font-size: 2rem;
+        font-weight: 400;
+    }
+    
+    .client p {
+        color: rgb(143, 138, 138);
+        width: 60%;
+        margin: 0 auto;
+    }
+    
+    .lawpara.clientpara {
+        margin-bottom: -50px;
+    }
+    
+    .client span {
+        font-size: 3rem;
+        color: rgb(143, 138, 138);
+        width: 20%;
+        padding: 5px;
+    }
+    
+    .client :nth-child(5) {
+        color: rgb(62, 60, 60);
+    }
+    /* section 9 */
+    
+    .flex11 {
+        text-align: center;
+    }
+    
+    .flex11>div {
+        width: 28%;
+        background-color: white;
+        padding: 5px;
+    }
+    
+    .flex11 div:first-child h3,
+    .flex11 div:last-child h3 {
+        font-size: 1.5rem;
+        padding: 10px;
+    }
+    
+    .flex11 div:first-child i,
+    .flex11 div:last-child i {
+        font-size: 3rem;
+        color: rgb(143, 138, 138);
+        margin: 10px auto;
+    }
+    
+    .flex11 div:first-child p,
+    .flex11 div:last-child p {
+        font-size: 1rem;
+    }
+    
+    .flex11 div:nth-child(2) {
+        background-image: linear-gradient(to right, rgb(169, 71, 218), rgb(81, 45, 212));
+        width: 33%;
+        color: white;
+        border: 4px solid white;
+        box-shadow: 10px 10px 8px rgb(143, 138, 138);
+    }
+    
+    .flex11 div:nth-child(2) h3 {
+        font-size: 2rem;
+        padding: 10px;
+    }
+    
+    .flex11 div:nth-child(2) i {
+        font-size: 4rem;
+        font-weight: bold;
+        margin: 10px auto;
+    }
+    
+    .doller1 {
+        font-size: 3rem;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .doller {
+        font-size: 3rem;
+        font-weight: bold;
+        color: rgb(42, 118, 199);
+    }
+    
+    .doller p,
+    .doller1 p {
+        color: rgb(143, 138, 138);
+        font-size: 1rem;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+    
+    .doller1 p {
+        color: white;
+    }
+    
+    .contentcard p,
+    .contentcard1 p {
+        color: rgb(143, 138, 138);
+        border-top: 1px solid rgb(233, 227, 227);
+        padding: 10px 5px;
+    }
+    
+    .contentcard1 p {
+        border-top: 1px solid rgb(169, 71, 218);
+    }
+    
+    .flex11 button {
+        background-color: black;
+        color: white;
+        width: 80%;
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+    
+    #corp {
+        background-color: white;
+    }
+    
+    #corp a {
+        color: rgb(42, 118, 199);
+    }
+    /*section 10*/
+    
+    .flex12 {
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    .flex12 div {
+        width: 30%;
+        padding: 20px 8px;
+        border: 1px solid rgb(235, 228, 228);
+        box-shadow: 5px 5px 8px rgb(143, 138, 138);
+        color: black;
+        font-size: 1.5rem;
+    }
+    
+    .flex12 div i {
+        font-size: 2rem;
+        color: rgb(42, 118, 199);
+        padding: 0 5px;
+    }
+    
+    .flex12 div p {
+        color: rgb(143, 138, 138);
+        font-size: 1rem;
+    }
+    /*section11*/
+    
+    .map iframe {
+        width: 100%;
+    }
+    
+    .bgblack {
+        background-color: black;
+        width: 100%;
+        color: white;
+        text-align: center;
+        padding: 30px 0px;
+    }
+    
+    .bgblack div i {
+        font-size: 1.2rem;
+        padding: 20px 5px;
+    }
+    /*------------------------------------------------------------ media query ------------------------------------*/
+    
+    @media only screen and (max-width:575px) {
+        .container {
+            width: 90%;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .flex1 {
+            padding: 10px 0;
+            background-color: rgba(255, 255, 255, .15);
+        }
+        .flex1 .logo,
+        .flex1 .menu,
+        .flex3 .main,
+        .flex3 .form {
+            width: 100%;
+        }
+        .flex1 .logo {
+            font-size: 0.9rem;
+        }
+        .flex1 .menu {
+            font-size: 0.8rem;
+            margin-top: 5px;
+        }
+        .menu div {
+            padding: 5px 0;
+            width: 25%;
+        }
+        .tel {
+            padding: 5px;
+            font-size: 0.5rem;
+            font-weight: normal;
+        }
+        .flex3 {
+            padding-top: 40px;
+        }
+        .flex3 .main {
+            padding: 0;
+        }
+        .large {
+            font-size: 1rem;
+        }
+        .law {
+            font-size: 1.5rem;
+            padding: 5px 0px;
+        }
+        .description {
+            font-size: 0.8rem;
+        }
+        .btstart {
+            margin-top: 5px;
+            padding: 8px;
+            font-size: 0.8rem;
+            border-radius: 5px;
+        }
+        .form {
+            margin-top: 5px;
+            /* background-color: rgba(93, 91, 91, 0.4); */
+            color: white;
+            background-color: rgba(255, 255, 255, .15);
+            backdrop-filter: blur(5px);
+        }
+        .form p {
+            padding: 10px 0px;
+            font-size: 1.2rem;
+        }
+        [placeholder] {
+            font-size: 1rem;
+            color: white;
+        }
+        input,
+        textarea {
+            background-color: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(5px);
+        }
+        .btsubmit {
+            margin: 10px auto;
+            padding: 5px 15px;
+            width: 90%;
+            border-radius: 5px;
+        }
+        .bold {
+            font-size: 1.5rem;
+            padding: 10px 0;
+        }
+        .line {
+            width: 20%;
+        }
+        .lawpara {
+            padding: 10px 0;
+            width: 100%;
+        }
+        .flex5 div,
+        .flex6 .imgdiv,
+        .flex6 .contentdiv,
+        .flex7 .ltcontent,
+        .flex8 div,
+        .flex7 .rtimg,
+        .flex9 div,
+        .flex9 div img,
+        .flex10 div,
+        .client img,
+        .client p,
+        .flex11 div,
+        .flex11 div:nth-child(2),
+        .flex12 div {
+            width: 100%;
+            margin: 0 auto;
+        }
+        .flex5 h3,
+        .title {
+            font-size: 1.2rem;
+        }
+        .flex6 div img {
+            margin: 0;
+        }
+        .flex6 .contentdiv {
+            padding: 0;
+            line-height: 1.2;
+        }
+        .contentdiv p {
+            margin: 0;
+            padding: 8px 0;
+        }
+        .icon,
+        .icon1 {
+            padding-right: 0%;
+            font-size: 30px;
+            float: none;
+        }
+        .titlem {
+            margin-left: 0 !important;
+        }
+        .flex7 .h3content,
+        .flex5 div p {
+            padding: 0;
+        }
+        .flex8 p {
+            padding-bottom: 10px;
+        }
+        .flex7 .rtimg {
+            display: none;
+        }
+        .bgimg2 {
+            height: 50vh;
+        }
+        .iframe {
+            margin: 0 auto;
+            height: 150px;
+            width: 100%;
+        }
+        .flex9 div {
+            margin: 10px auto;
+        }
+        .flex10 div {
+            width: 50%;
+        }
+        .flex10 div p:last-child {
+            margin-top: -7px;
+        }
+        .lawpara.clientpara {
+            margin-bottom: -30px;
+        }
+        .flex11 div,
+        .flex12 div {
+            margin: 8px auto;
+        }
+    }
+    /* ----------------------------------media 2----------------------------- */
+    
+    @media only screen and (max-width:375px) {
+        .tel {
+            padding: 5px 0;
+        }
+        .large {
+            font-size: 0.8rem;
+        }
+        .special {
+            padding: 5px;
+        }
+        .law,
+        .form p,
+        [placeholder],
+        .btsubmit,
+        .bold,
+        .flex5 h3,
+        .title,
+        .flex7 h3,
+        .icon2,
+        .post,
+        .client p,
+        .flex12 div,
+        .flex11 div:first-child h3,
+        .flex11 div:last-child h3,
+        .flex12 div {
+            font-size: 1rem;
+        }
+        .description,
+        .lawpara,
+        .flex5 p,
+        .para1,
+        .titlem,
+        .h3content,
+        .flex8 p,
+        .lawpara.clientpara,
+        .flex12 div p,
+        .bgblack div,
+        .flex11 div:first-child p,
+        .flex11 div:last-child p {
+            font-size: 0.7rem;
+        }
+        .btstart,
+        .btsubmit {
+            padding: 4px;
+        }
+        .form p {
+            font-size: 1;
+        }
+        .name,
+        .client h3,
+        .flex12 div i,
+        .doller {
+            font-size: 1.5rem;
+        }
+        .flex10 div {
+            width: 100%;
+        }
+        .bgblack {
+            padding: 0;
+        }
+    }
